@@ -1,0 +1,102 @@
+.twitter {
+    /*tomar la imagen de iconos.png*/
+    background: url('iconos.png')no-repeat;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-right: 5px;
+    /*posicion de la imagen en el archivo iconos.png*/
+    background-position: 5px 2px;
+    
+}
+
+.instagram {
+    background: url('iconos.png')no-repeat;
+    width: 90px;
+    height: 80px;
+    display: flex;
+    margin-right: 5px;
+    background-position: -120px 0px;
+}
+
+.facebook {
+    background: url('iconos.png')no-repeat;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-right: 5px;
+    background-position: -10px -110px;
+}
+
+.what {
+    background: url('iconos.png');
+    width: 80px;
+    height: 80px;
+    display: flex;
+    margin-right: 5px;
+    background-position: -115px -100px;
+}
+
+.container{
+    width: 100%;
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: end;
+    
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: #f2f2f2;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #f2f2f2;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border: 1px 
+    ;
+}
+
+span{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: cornflowerblue;
+    margin: -55px;
+    padding: 30px;
+
+   
+    
+}
+
+h1{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+}
